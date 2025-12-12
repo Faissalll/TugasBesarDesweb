@@ -171,9 +171,9 @@ const tentangImage = new URL("../assets/Utama/Utama.jpeg", import.meta.url)
     .href;
 
 const stats = [
-    { value: "50K+", label: "Pengunjung" },
-    { value: "4.9", label: "Rating" },
-    { value: "15+", label: "Destinasi" },
+    { value: "skilll 1", label: "Pbadskhjash" },
+    { value: "skill 2", label: "dhsajhf" },
+    { value: "skill 3", label: "jdsghjfhas" },
 ];
 
 </script>
