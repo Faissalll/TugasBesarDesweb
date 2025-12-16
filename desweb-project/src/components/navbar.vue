@@ -76,15 +76,7 @@ const toggleMenu = () => {
                         ></span>
                     </router-link>
                 </div>
-                <router-link
-                    to="/aboutme"
-                    class="text-gray-700 hover:text-teal-400 font-normal transition-colors relative group"
-                >
-                    aboutme
-                    <span
-                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-teal-400 transition-all group-hover:w-full"
-                    ></span>
-                </router-link>
+
                 <RouterLink
                     to="/pesan-tiket"
                     class="hidden md:block bg-[#00D5BE] hover:bg-[#00b19e] text-white px-6 py-2.5 rounded-full font-medium transition-colors cta-button"
@@ -160,13 +152,7 @@ const toggleMenu = () => {
                     Kontak
                 </router-link>
 
-                <router-link
-                    to="/aboutme"
-                    @click="toggleMenu"
-                    class="block py-2 text-gray-700 hover:text-teal-400"
-                >
-                    aboutme
-                </router-link>
+
                 <router-link
                     to="/pesan-tiket"
                     @click="toggleMenu"
